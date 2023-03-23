@@ -108,31 +108,62 @@ const skills = {
           fontAwesomeClassname: "ion-logo-python",
           style: {
             backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Pandas",
-          fontAwesomeClassname: "simple-icons:pandas",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "NumPy",
-          fontAwesomeClassname: "logos-numpy",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Tableau",
-          fontAwesomeClassname: "logos-tableau",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
+const settings = {
+  isSplash: false, // Change this to false if you don't want Splash screen.
+};
+
+//SEO Related settings
+const seo = {
+  title: "Surfy | Portfolio",
+  description:
+    "An Expert Server developer who thrives to leverage servers with instant solutions and a blend of UI/UX design",
+  og: {
+    title: "Surfy's Portfolio",
+    type: "website",
+    url: "https://surfypanda.me/",
+  },
+};
+
+//Home Page
+const greeting = {
+  title: "Hello!",
+  sub: "SurfyPanda",
+  logo_name: "SurfyPanda",
+  resumeLink: "",
+};
+
+// home logos
+const competitiveSites = {
+  competitiveSites: [
+    {
+      siteName: "Github",
+      iconifyClassname: "simple-icons:github",
+      style: {
+        color: "white",
+      },
+      profileLink: "https://github.com/sukritvemula",
+    },
+    {
+      siteName: "LinkedIn",
+      iconifyClassname: "simple-icons:linkedin",
+      style: {
+        color: "#0077b5",
+      },
+      profileLink: "https://www.linkedin.com/in/sukritvemula/",
+    },
+  ],
+};
+
+//what i do?
+const skills = {
+  data: [
+    {
+      title: "Expert Server Configuration",
+      fileName: "DataScienceImg",
+      skills: [
+        "⚡ I'm a Minecraft server developer with a passion for creating immersive gaming experiences.",
+        "⚡ I specialize in configuring the best server setups to optimize performance and provide players with an enjoyable and seamless experience.",
+        "⚡ Having good hands-on with Moderation Tools, Plugins & WorldGuard",
       ],
     },
     {
